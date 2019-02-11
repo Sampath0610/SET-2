@@ -1,11 +1,11 @@
 int main()
 {
-   int number,k,power=1;
-    scanf("%d",&number);
+   int a,k,power=1;
+    scanf("%d",&a);
     scanf("%d",&k);
 while(k>0)
 {
-   power=power*number;
+   power=power*a;
     k--;
 }
 printf("%d",power);
